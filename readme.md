@@ -8,20 +8,20 @@
 
 ## Instalação
 ```
-npm i backupjs
+npm i @chrysthopher/backupjs
 ```
 
 ```
-yarn add backupjs
+yarn add @chrysthopher/backupjs
 ```
 
 # Métodos de Uso
 
 ## Normal
 ```js
-const backupFiles = require("backupjs")
+const backupFiles = require("@chrysthopher/backupjs")
 // ou
-// import backupFiles from 'backupjs'
+// import backupFiles from '@chrysthopher/backupjs'
 
 //backupFiles("Path", "outputPath", "outputName", {options})
 
@@ -34,9 +34,9 @@ backupFiles("./", "./", "backup2")
 
 ## Isolando pastas ou arquivos
 ```js
-const backupFiles = require("backupjs")
+const backupFiles = require("@chrysthopher/backupjs")
 // or
-// import backupFiles from 'backupjs'
+// import backupFiles from '@chrysthopher/backupjs'
 
 //backupFiles("Path", "outputPath", "outputName", {options})
 
